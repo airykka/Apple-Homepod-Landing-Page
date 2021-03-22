@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Homepod</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dd574cf8c6.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-div">
+        <img src="images/applelogo.svg" alt="Apple Logo" id="header-img" />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#hero" class="nav-link tiny-text">Mac</a></li>
+          <li><a href="#compare" class="nav-link tiny-text">iPad</a></li>
+          <li>
+            <a href="#product-display" class="nav-link tiny-text">iPhone</a>
+          </li>
+          <li><a href="#compare" class="nav-link tiny-text">Watch</a></li>
+          <li><a href="#hero" class="nav-link tiny-text">TV</a></li>
+          <li>
+            <a href="#product-display" class="nav-link tiny-text">Music</a>
+          </li>
+          <li><a href="#hero" class="nav-link tiny-text">Support</a></li>
+          <li>
+            <a href="#compare" class="nav-link tiny-text search"></a>
+          </li>
+          <li>
+            <a href="#product-display" class="nav-link tiny-text cart"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="product-nav">
+      <ul class="product-nav-items">
+        <li class="product-nav-item">
+          <a href="#">
+            <figure class="mini"></figure>
+            <p class="tiny-text">
+              HomePod mini<br /><span class="new-text">New</span>
+            </p>
+          </a>
+        </li>
+        <li class="product-nav-item">
+          <a href="#">
+            <figure class="homepod"></figure>
+            <p class="tiny-text">HomePod</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="promobar">
+      <p class="tiny-text">
+        Get 3% Daily Cash back with Apple Card.
+        <span><a class="link" href="#">Learn more</a></span>
+      </p>
+    </section>
+    <main>
+      <section id="hero" class="hero">
+        <section class="title">
+          <h1 class="main-title bold">The speakers of the house.</h1>
+          <p class="description">
+            HomePod mini takes up almost no space yet delivers room‑filling
+            sound. HomePod is a breakthrough speaker with high‑fidelity audio
+            that adapts to its location. Both help you take care of everyday
+            tasks with Siri, control your smart home, set up multiroom audio,
+            and send Intercom messages to every room. HomePod and HomePod mini
+            keep everything private and secure, and only listen for “Hey Siri.”
+          </p>
+        </section>
+        <section id="product-display" class="product-display">
+          <div class="productcard first">
+            <p class="product-title bold">HomePod mini</p>
+            <p class="normal-text">$99</p>
+            <a href="#" class="button normal-text">Buy</a>
+            <a href="#" class="normal-text link">Learn more</a>
+            <div class="homepod-image">
+              <img src="images/homepod_mini.jpeg" alt="homepod mini" />
+            </div>
+          </div>
+
+          <div class="productcard">
+            <p class="product-title bold">HomePod</p>
+            <p class="normal-text">$299</p>
+            <a href="#" class="button normal-text">Buy</a>
+            <a href="#" class="normal-text link">Learn more</a>
+            <div class="homepod-image">
+              <img src="images/homepod_max.jpeg" alt="homepod maxi" />
+            </div>
+          </div>
+        </section>
+        <div class="product-image">
+          <img src="images/Homepods.jpeg" alt="" />
+        </div>
+      </section>
+      <section id="compare" class="compare">
+        <h3 class="subheading bold">Compare Homepod Models</h3>
+        <div class="compare-table">
+          <div class="grid-headings product-name">
+            <p class="table-heading bold first">Homepod Mini</p>
+            <p class="table-heading bold second">Homepod</p>
+          </div>
+          <div class="grid-headings">
+            <p class="normal-text first">$99</p>
+            <p class="normal-text second">$299</p>
+          </div>
+          <div class="grid-headings last">
+            <a href="#" class="button normal-text first">Buy</a>
+            <a href="#" class="button normal-text second">Buy</a>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Audio technology</p>
+            <p class="normal-text">
+              Full-range driver and dual passive radiators
+            </p>
+            <p class="normal-text">
+              High-excursion woofers and array of seven tweeters
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Spatial awareness</p>
+            <p class="normal-text">-</p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Multiroom audio<sup>1</sup></p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Stereo pair capable</p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Home theater with Apple TV 4K</p>
+            <p class="normal-text">-</p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Siri</p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">Intercom<sup>2</sup></p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+          <div class="feature-grid">
+            <p class="normal-text bold full">smart home hub<sup>3</sup></p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+            <p class="normal-text">
+              <i class="fas fa-check"></i>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="card-grid">
+        <div class="featured-cards home">
+          <p class="product-title bold">Home</p>
+          <p class="normal-text">
+            Set up and customize how you control your smart home accessories.
+          </p>
+          <a href="#" class="link">Learn nore about Home</a>
+          <img src="images/home.png" alt="Home" />
+        </div>
+        <div class="featured-cards grey">
+          <p class="product-title bold">Home Accessories</p>
+          <p class="normal-text">
+            Discover smart home accessories that work with HomePod.
+          </p>
+          <a href="#" class="link">Shop HomeKit accessories</a>
+          <img src="images/grey1.jpeg" alt="Home" />
+        </div>
+        <div class="featured-cards grey2">
+          <p class="product-title bold"><i class="fab fa-apple"></i> Music</p>
+          <p class="normal-text">
+            Over 70 million songs.<br />Three months on us.
+          </p>
+          <a href="#" class="link">Try it free<sup>4</sup></a>
+          <img src="images/grey2.jpeg" alt="Home" />
+        </div>
+        <div class="featured-cards siri">
+          <p class="product-title bold">Siri</p>
+          <p class="normal-text">
+            Ask questions and control your smart Home accessories with your
+            voice.
+          </p>
+          <a href="#" class="link">Learn nore about Siri</a>
+          <img src="images/siri2.png" alt="Home" />
+        </div>
+      </section>
+      <section class="video">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/FXI_-OesT3A"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="form"><form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Buy Now" class="btn" />
+        </form>
+    </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/dd574cf8c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
