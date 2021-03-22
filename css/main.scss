@@ -501,30 +501,58 @@ main {
     justify-content: space-between;
     align-items: center;
 
+    #video {
+      width: 100%;
+    }
+
     @media screen and (min-width: 960px) {
       flex-direction: row;
 
       #video {
         margin-right: 2rem;
+        width: 50%;
       }
     }
 
     .form {
       display: flex;
       flex-direction: column;
-      padding: 5rem 0rem;
+      padding: 10rem 0rem;
+      width: 80%;
 
       @media screen and (min-width: 960px) {
-        padding: 0 10rem;
+        padding: 0 5rem;
+        width: 50%;
       }
 
-      input {
+      input,
+      button {
         width: 100%;
         padding: 2rem;
+        font-family: "Inter", sans-serif;
+        font-size: 1.7rem;
       }
 
       #email {
         margin-bottom: 1rem;
+        outline: none;
+        border: 1px sold grey;
+      }
+
+      #submit2 {
+        background-color: #06c;
+        outline: none;
+        border: none;
+        color: #ededed;
+        border-radius: none;
+      }
+
+      #submit2:hover {
+        background-color: grey;
+      }
+
+      #submit {
+        display: none;
       }
     }
   }

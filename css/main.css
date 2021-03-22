@@ -657,6 +657,10 @@ main .video {
           align-items: center;
 }
 
+main .video #video {
+  width: 100%;
+}
+
 @media screen and (min-width: 960px) {
   main .video {
     -webkit-box-orient: horizontal;
@@ -666,6 +670,7 @@ main .video {
   }
   main .video #video {
     margin-right: 2rem;
+    width: 50%;
   }
 }
 
@@ -677,21 +682,44 @@ main .video .form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5rem 0rem;
+  padding: 10rem 0rem;
+  width: 80%;
 }
 
 @media screen and (min-width: 960px) {
   main .video .form {
-    padding: 0 10rem;
+    padding: 0 5rem;
+    width: 50%;
   }
 }
 
-main .video .form input {
+main .video .form input,
+main .video .form button {
   width: 100%;
   padding: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.7rem;
 }
 
 main .video .form #email {
   margin-bottom: 1rem;
+  outline: none;
+  border: 1px sold grey;
+}
+
+main .video .form #submit2 {
+  background-color: #06c;
+  outline: none;
+  border: none;
+  color: #ededed;
+  border-radius: none;
+}
+
+main .video .form #submit2:hover {
+  background-color: grey;
+}
+
+main .video .form #submit {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */
